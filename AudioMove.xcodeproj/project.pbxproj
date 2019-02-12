@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FE576941A67FC1FD93C2646 /* Pods_AudioMoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8EB86FE91D90F30248E4F /* Pods_AudioMoveUITests.framework */; };
+		5A5817AB3A9CBF1BA8B97751 /* Pods_AudioMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3C1B2F61B600D5C01A7A39 /* Pods_AudioMove.framework */; };
+		AB271B5D2211928000465FB0 /* AdditiveSynthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB271B5C2211928000465FB0 /* AdditiveSynthesis.swift */; };
+		AB59CF1A22113C7D00D7A8F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59CF1922113C7D00D7A8F2 /* FirstViewController.swift */; };
+		ABC0D330220EB90F003EA1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0D32F220EB90F003EA1A3 /* AppDelegate.swift */; };
+		ABC0D332220EB90F003EA1A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0D331220EB90F003EA1A3 /* RootViewController.swift */; };
+		ABC0D335220EB90F003EA1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC0D333220EB90F003EA1A3 /* Main.storyboard */; };
+		ABC0D338220EB90F003EA1A3 /* AudioMove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC0D336220EB90F003EA1A3 /* AudioMove.xcdatamodeld */; };
+		ABC0D33A220EB911003EA1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC0D339220EB911003EA1A3 /* Assets.xcassets */; };
+		ABC0D348220EB911003EA1A3 /* AudioMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0D347220EB911003EA1A3 /* AudioMoveTests.swift */; };
+		ABC0D353220EB911003EA1A3 /* AudioMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0D352220EB911003EA1A3 /* AudioMoveUITests.swift */; };
+		DADC70C71A7D3EFC713E9BF6 /* Pods_AudioMoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8A239A4257FD03A28D174E /* Pods_AudioMoveTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC0D344220EB911003EA1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC0D324220EB90F003EA1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC0D32B220EB90F003EA1A3;
+			remoteInfo = AudioMove;
+		};
+		ABC0D34F220EB911003EA1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC0D324220EB90F003EA1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC0D32B220EB90F003EA1A3;
+			remoteInfo = AudioMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B8EC3B1878B22EB2688C59A /* Pods-AudioMoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMoveTests.release.xcconfig"; path = "Target Support Files/Pods-AudioMoveTests/Pods-AudioMoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3C1B2F61B600D5C01A7A39 /* Pods_AudioMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioMove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F375BF70CF54372FE76CCC /* Pods-AudioMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMove.debug.xcconfig"; path = "Target Support Files/Pods-AudioMove/Pods-AudioMove.debug.xcconfig"; sourceTree = "<group>"; };
+		AB271B5C2211928000465FB0 /* AdditiveSynthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditiveSynthesis.swift; sourceTree = "<group>"; };
+		AB59CF1922113C7D00D7A8F2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ABC0D32C220EB90F003EA1A3 /* AudioMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC0D32F220EB90F003EA1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABC0D331220EB90F003EA1A3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		ABC0D334220EB90F003EA1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC0D337220EB90F003EA1A3 /* AudioMove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioMove.xcdatamodel; sourceTree = "<group>"; };
+		ABC0D339220EB911003EA1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC0D33E220EB911003EA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC0D343220EB911003EA1A3 /* AudioMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC0D347220EB911003EA1A3 /* AudioMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMoveTests.swift; sourceTree = "<group>"; };
+		ABC0D349220EB911003EA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC0D34E220EB911003EA1A3 /* AudioMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC0D352220EB911003EA1A3 /* AudioMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMoveUITests.swift; sourceTree = "<group>"; };
+		ABC0D354220EB911003EA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B328B60EAB31C1DA23743692 /* Pods-AudioMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMove.release.xcconfig"; path = "Target Support Files/Pods-AudioMove/Pods-AudioMove.release.xcconfig"; sourceTree = "<group>"; };
+		BDF8EB86FE91D90F30248E4F /* Pods_AudioMoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioMoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8A239A4257FD03A28D174E /* Pods_AudioMoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioMoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E774123DBD8824B2B2D89F16 /* Pods-AudioMoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMoveUITests.debug.xcconfig"; path = "Target Support Files/Pods-AudioMoveUITests/Pods-AudioMoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F62A367213CA6B01B7A28CA1 /* Pods-AudioMoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMoveUITests.release.xcconfig"; path = "Target Support Files/Pods-AudioMoveUITests/Pods-AudioMoveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F812AD0D837E54A09E7DBCC4 /* Pods-AudioMoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioMoveTests.debug.xcconfig"; path = "Target Support Files/Pods-AudioMoveTests/Pods-AudioMoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC0D329220EB90F003EA1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5817AB3A9CBF1BA8B97751 /* Pods_AudioMove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0D340220EB911003EA1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC70C71A7D3EFC713E9BF6 /* Pods_AudioMoveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0D34B220EB911003EA1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE576941A67FC1FD93C2646 /* Pods_AudioMoveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB271B5B2211924500465FB0 /* AudioKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB271B5C2211928000465FB0 /* AdditiveSynthesis.swift */,
+			);
+			path = AudioKit;
+			sourceTree = "<group>";
+		};
+		ABC0D323220EB90F003EA1A3 = {
+			isa = PBXGroup;
+			children = (
+				ABC0D32E220EB90F003EA1A3 /* AudioMove */,
+				ABC0D346220EB911003EA1A3 /* AudioMoveTests */,
+				ABC0D351220EB911003EA1A3 /* AudioMoveUITests */,
+				ABC0D32D220EB90F003EA1A3 /* Products */,
+				B2DB7FD034274018F630D4CB /* Pods */,
+				B40BFE44E168C68D28FEABD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC0D32D220EB90F003EA1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0D32C220EB90F003EA1A3 /* AudioMove.app */,
+				ABC0D343220EB911003EA1A3 /* AudioMoveTests.xctest */,
+				ABC0D34E220EB911003EA1A3 /* AudioMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC0D32E220EB90F003EA1A3 /* AudioMove */ = {
+			isa = PBXGroup;
+			children = (
+				AB271B5B2211924500465FB0 /* AudioKit */,
+				ABC0D32F220EB90F003EA1A3 /* AppDelegate.swift */,
+				ABC0D331220EB90F003EA1A3 /* RootViewController.swift */,
+				ABC0D333220EB90F003EA1A3 /* Main.storyboard */,
+				ABC0D339220EB911003EA1A3 /* Assets.xcassets */,
+				ABC0D33E220EB911003EA1A3 /* Info.plist */,
+				ABC0D336220EB90F003EA1A3 /* AudioMove.xcdatamodeld */,
+				AB59CF1922113C7D00D7A8F2 /* FirstViewController.swift */,
+			);
+			path = AudioMove;
+			sourceTree = "<group>";
+		};
+		ABC0D346220EB911003EA1A3 /* AudioMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0D347220EB911003EA1A3 /* AudioMoveTests.swift */,
+				ABC0D349220EB911003EA1A3 /* Info.plist */,
+			);
+			path = AudioMoveTests;
+			sourceTree = "<group>";
+		};
+		ABC0D351220EB911003EA1A3 /* AudioMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0D352220EB911003EA1A3 /* AudioMoveUITests.swift */,
+				ABC0D354220EB911003EA1A3 /* Info.plist */,
+			);
+			path = AudioMoveUITests;
+			sourceTree = "<group>";
+		};
+		B2DB7FD034274018F630D4CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8F375BF70CF54372FE76CCC /* Pods-AudioMove.debug.xcconfig */,
+				B328B60EAB31C1DA23743692 /* Pods-AudioMove.release.xcconfig */,
+				F812AD0D837E54A09E7DBCC4 /* Pods-AudioMoveTests.debug.xcconfig */,
+				3B8EC3B1878B22EB2688C59A /* Pods-AudioMoveTests.release.xcconfig */,
+				E774123DBD8824B2B2D89F16 /* Pods-AudioMoveUITests.debug.xcconfig */,
+				F62A367213CA6B01B7A28CA1 /* Pods-AudioMoveUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B40BFE44E168C68D28FEABD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C1B2F61B600D5C01A7A39 /* Pods_AudioMove.framework */,
+				DD8A239A4257FD03A28D174E /* Pods_AudioMoveTests.framework */,
+				BDF8EB86FE91D90F30248E4F /* Pods_AudioMoveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC0D32B220EB90F003EA1A3 /* AudioMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC0D357220EB911003EA1A3 /* Build configuration list for PBXNativeTarget "AudioMove" */;
+			buildPhases = (
+				859941B4284D65DA674A9A2E /* [CP] Check Pods Manifest.lock */,
+				ABC0D328220EB90F003EA1A3 /* Sources */,
+				ABC0D329220EB90F003EA1A3 /* Frameworks */,
+				ABC0D32A220EB90F003EA1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioMove;
+			productName = AudioMove;
+			productReference = ABC0D32C220EB90F003EA1A3 /* AudioMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC0D342220EB911003EA1A3 /* AudioMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC0D35A220EB911003EA1A3 /* Build configuration list for PBXNativeTarget "AudioMoveTests" */;
+			buildPhases = (
+				03AF8EB96E551C25756EDD08 /* [CP] Check Pods Manifest.lock */,
+				ABC0D33F220EB911003EA1A3 /* Sources */,
+				ABC0D340220EB911003EA1A3 /* Frameworks */,
+				ABC0D341220EB911003EA1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC0D345220EB911003EA1A3 /* PBXTargetDependency */,
+			);
+			name = AudioMoveTests;
+			productName = AudioMoveTests;
+			productReference = ABC0D343220EB911003EA1A3 /* AudioMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABC0D34D220EB911003EA1A3 /* AudioMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC0D35D220EB911003EA1A3 /* Build configuration list for PBXNativeTarget "AudioMoveUITests" */;
+			buildPhases = (
+				B38832EC50E90D25E30BFB9C /* [CP] Check Pods Manifest.lock */,
+				ABC0D34A220EB911003EA1A3 /* Sources */,
+				ABC0D34B220EB911003EA1A3 /* Frameworks */,
+				ABC0D34C220EB911003EA1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC0D350220EB911003EA1A3 /* PBXTargetDependency */,
+			);
+			name = AudioMoveUITests;
+			productName = AudioMoveUITests;
+			productReference = ABC0D34E220EB911003EA1A3 /* AudioMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC0D324220EB90F003EA1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = duke;
+				TargetAttributes = {
+					ABC0D32B220EB90F003EA1A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					ABC0D342220EB911003EA1A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = ABC0D32B220EB90F003EA1A3;
+					};
+					ABC0D34D220EB911003EA1A3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = ABC0D32B220EB90F003EA1A3;
+					};
+				};
+			};
+			buildConfigurationList = ABC0D327220EB90F003EA1A3 /* Build configuration list for PBXProject "AudioMove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC0D323220EB90F003EA1A3;
+			productRefGroup = ABC0D32D220EB90F003EA1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC0D32B220EB90F003EA1A3 /* AudioMove */,
+				ABC0D342220EB911003EA1A3 /* AudioMoveTests */,
+				ABC0D34D220EB911003EA1A3 /* AudioMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC0D32A220EB90F003EA1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0D33A220EB911003EA1A3 /* Assets.xcassets in Resources */,
+				ABC0D335220EB90F003EA1A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0D341220EB911003EA1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0D34C220EB911003EA1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AF8EB96E551C25756EDD08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioMoveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		859941B4284D65DA674A9A2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioMove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38832EC50E90D25E30BFB9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioMoveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC0D328220EB90F003EA1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0D332220EB90F003EA1A3 /* RootViewController.swift in Sources */,
+				ABC0D330220EB90F003EA1A3 /* AppDelegate.swift in Sources */,
+				ABC0D338220EB90F003EA1A3 /* AudioMove.xcdatamodeld in Sources */,
+				AB59CF1A22113C7D00D7A8F2 /* FirstViewController.swift in Sources */,
+				AB271B5D2211928000465FB0 /* AdditiveSynthesis.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0D33F220EB911003EA1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0D348220EB911003EA1A3 /* AudioMoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0D34A220EB911003EA1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0D353220EB911003EA1A3 /* AudioMoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC0D345220EB911003EA1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC0D32B220EB90F003EA1A3 /* AudioMove */;
+			targetProxy = ABC0D344220EB911003EA1A3 /* PBXContainerItemProxy */;
+		};
+		ABC0D350220EB911003EA1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC0D32B220EB90F003EA1A3 /* AudioMove */;
+			targetProxy = ABC0D34F220EB911003EA1A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC0D333220EB90F003EA1A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC0D334220EB90F003EA1A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC0D355220EB911003EA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABC0D356220EB911003EA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC0D358220EB911003EA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F375BF70CF54372FE76CCC /* Pods-AudioMove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UM7XGBZWH;
+				INFOPLIST_FILE = AudioMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioKit\"",
+					"-framework",
+					"\"AudioKitUI\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.AudioMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC0D359220EB911003EA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B328B60EAB31C1DA23743692 /* Pods-AudioMove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UM7XGBZWH;
+				INFOPLIST_FILE = AudioMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioKit\"",
+					"-framework",
+					"\"AudioKitUI\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.AudioMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABC0D35B220EB911003EA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F812AD0D837E54A09E7DBCC4 /* Pods-AudioMoveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UM7XGBZWH;
+				INFOPLIST_FILE = AudioMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.AudioMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioMove.app/AudioMove";
+			};
+			name = Debug;
+		};
+		ABC0D35C220EB911003EA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8EC3B1878B22EB2688C59A /* Pods-AudioMoveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UM7XGBZWH;
+				INFOPLIST_FILE = AudioMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.AudioMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioMove.app/AudioMove";
+			};
+			name = Release;
+		};
+		ABC0D35E220EB911003EA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E774123DBD8824B2B2D89F16 /* Pods-AudioMoveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UM7XGBZWH;
+				INFOPLIST_FILE = AudioMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.AudioMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioMove;
+			};
+			name = Debug;
+		};
+		ABC0D35F220EB911003EA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62A367213CA6B01B7A28CA1 /* Pods-AudioMoveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UM7XGBZWH;
+				INFOPLIST_FILE = AudioMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.AudioMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC0D327220EB90F003EA1A3 /* Build configuration list for PBXProject "AudioMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0D355220EB911003EA1A3 /* Debug */,
+				ABC0D356220EB911003EA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC0D357220EB911003EA1A3 /* Build configuration list for PBXNativeTarget "AudioMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0D358220EB911003EA1A3 /* Debug */,
+				ABC0D359220EB911003EA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC0D35A220EB911003EA1A3 /* Build configuration list for PBXNativeTarget "AudioMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0D35B220EB911003EA1A3 /* Debug */,
+				ABC0D35C220EB911003EA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC0D35D220EB911003EA1A3 /* Build configuration list for PBXNativeTarget "AudioMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0D35E220EB911003EA1A3 /* Debug */,
+				ABC0D35F220EB911003EA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABC0D336220EB90F003EA1A3 /* AudioMove.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABC0D337220EB90F003EA1A3 /* AudioMove.xcdatamodel */,
+			);
+			currentVersion = ABC0D337220EB90F003EA1A3 /* AudioMove.xcdatamodel */;
+			path = AudioMove.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABC0D324220EB90F003EA1A3 /* Project object */;
+}

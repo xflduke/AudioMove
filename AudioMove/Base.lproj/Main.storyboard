@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e0h-Lb-chs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="RootViewController" customModule="AudioMove" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5mO-w9-j2p">
+                                <rect key="frame" x="40" y="333" width="295" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="iTy-Lk-EMd"/>
+                    </view>
+                    <connections>
+                        <outlet property="progessView" destination="5mO-w9-j2p" id="uoo-ln-WW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="25.637181409295355"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="IlJ-kr-Exn">
+            <objects>
+                <viewController storyboardIdentifier="First" id="e0h-Lb-chs" customClass="FirstViewController" customModule="AudioMove" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GKO-1L-ITN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="PT8-Tj-F5U"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HDc-E3-azo" appends="YES" id="25A-jZ-5Cz"/>
+                            <outletCollection property="gestureRecognizers" destination="jis-va-R9n" appends="YES" id="RxQ-I1-fpv"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="press" destination="HDc-E3-azo" id="NZv-hb-LNH"/>
+                        <outlet property="tap" destination="jis-va-R9n" id="mqC-dR-Zwo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y4c-1V-vUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="HDc-E3-azo">
+                    <connections>
+                        <action selector="pressAction:" destination="e0h-Lb-chs" id="1wK-Db-Hfv"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <tapGestureRecognizer id="jis-va-R9n">
+                    <connections>
+                        <action selector="tapAction:" destination="e0h-Lb-chs" id="F9x-7X-mm1"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="654" y="26"/>
+        </scene>
+    </scenes>
+</document>
