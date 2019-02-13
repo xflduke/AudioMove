@@ -37,7 +37,7 @@ class RootViewController: UIViewController {
         progessView.progress += 0.1
         progessView.setProgress(progessView.progress, animated: true)
         
-        if (progessView.progress > MAXTIME) {
+        if (progessView.progress >= MAXTIME) {
             progessTimer.invalidate()
             isProgessing = false
             

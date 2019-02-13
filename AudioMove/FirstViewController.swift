@@ -88,10 +88,12 @@ class FirstViewController: UIViewController {
         if (sender.state == UIGestureRecognizer.State.began) {
             NSLog("长按开始");
             
-        }else if (sender.state == UIGestureRecognizer.State.ended){
+        } else if (sender.state == UIGestureRecognizer.State.ended) {
             NSLog("长按结束");
-        }
-        else {
+            
+        } else if (sender.state == UIGestureRecognizer.State.changed) {
+            
+        } else {
             NSLog("长按中");
         }
     }
